@@ -28,3 +28,6 @@ In the **3D view**, you can apply **textures and colors** to your environment to
 You can import images from the **Import** menu.  
 This allows you to easily build your desired **environment** from a map.
 
+<img width="2734" height="1121" alt="Screenshot from 2025-11-08 18-00-43" src="https://github.com/user-attachments/assets/9d94af8f-a9c9-497a-9a8a-e79692b631d1" />
+
+
