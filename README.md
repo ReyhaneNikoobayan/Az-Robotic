@@ -22,3 +22,9 @@ You can create your environment by selecting and placing walls in the **2D view*
 You can also add features such as **doors, walls, and stairs**.  
 
 In the **3D view**, you can apply **textures and colors** to your environment to make it more realistic.
+
+### Step 4: Import Images
+
+You can import images from the **Import** menu.  
+This allows you to easily build your desired **environment** from a map.
+
