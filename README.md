@@ -7,6 +7,7 @@ Step 1: open a terminal and run the following command to start Gazebo
 ```bash
 gazebo
 
+
 🏗️ Step 2: Open the Building Editor
 
 From the top menu, go to **Edit → Building Editor**  .
