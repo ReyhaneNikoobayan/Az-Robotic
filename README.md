@@ -54,5 +54,11 @@ This allows you to insert and customize additional models, objects, and features
 You can add simple features from **Simple Shapes**, or insert objects and models from the **Model Database** — such as a **café table**, **house model**, or other available assets.  
 These additions help you create a more realistic and detailed simulation environment.
 
+> 💡 **Hint:** You can change the **density**, **size**, **color** and other features of simple shapes by clicking on **Open Link Inspector**.
+
+<img width="2704" height="1500" alt="Screenshot from 2025-11-09 17-07-34" src="https://github.com/user-attachments/assets/5ed82239-9558-4f1c-9485-9bf0a0bb4746" />
+
+
+
 
 
