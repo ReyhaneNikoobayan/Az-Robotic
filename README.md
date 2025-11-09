@@ -56,6 +56,14 @@ These additions help you create a more realistic and detailed simulation environ
 
 <img width="2704" height="1500" alt="Screenshot from 2025-11-09 17-07-34" src="https://github.com/user-attachments/assets/5ed82239-9558-4f1c-9485-9bf0a0bb4746" />
 
+### Step 8: Save and View Your Model
+
+Now you can save your model with the **.world** extension and click **Exit Model Editor**.  
+Your entire model will then be visible in the Gazebo simulation environment.
+
+<img width="2704" height="1500" alt="Screenshot from 2025-11-09 17-15-48" src="https://github.com/user-attachments/assets/4ab302c9-5e8e-4489-b571-a92b852a4d53" />
+
+
 
 
 
