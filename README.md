@@ -63,6 +63,52 @@ Your entire model will then be visible in the Gazebo simulation environment.
 
 <img width="2704" height="1500" alt="Screenshot from 2025-11-09 17-15-48" src="https://github.com/user-attachments/assets/4ab302c9-5e8e-4489-b571-a92b852a4d53" />
 
+## How to Run the Simulation on Your Laptop
+
+### Step 1: Install Dependent ROS 2 Packages
+
+Run the following commands to install Cartographer and Navigation2:
+
+```bash
+sudo apt install ros-humble-cartographer
+sudo apt install ros-humble-cartographer-ros
+
+sudo apt install ros-humble-navigation2
+sudo apt install ros-humble-nav2-bringup
+
+### Step 2 : Install TurtleBot3 Packages
+
+Set up your **TurtleBot3 workspace** and clone the required packages by running the following commands:
+
+```bash
+source /opt/ros/humble/setup.bash
+mkdir -p ~/turtlebot3_ws/src
+cd ~/turtlebot3_ws/src/
+
+git clone -b humble https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3.git
+
+sudo apt install python3-colcon-common-extensions
+
+cd ~/turtlebot3_ws
+colcon build --symlink-install
+
+echo 'source ~/turtlebot3_ws/install/setup.bash' >> ~/.bashrc
+source ~/.bashrc
+
+### Step 3 : Configure Environment Variables
+
+Add the following lines to your `.bashrc` file to configure your environment for **TurtleBot3** and **Gazebo**:
+
+```bash
+echo 'export ROS_DOMAIN_ID=30 # TURTLEBOT3' >> ~/.bashrc
+echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc
+echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
+source ~/.bashrc
+
+
+
 
 
 
