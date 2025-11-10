@@ -111,6 +111,43 @@ echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
 source ~/.bashrc
 ```
 
+### Step 4 : Install Simulation Package
+
+Install the **TurtleBot3 Simulation** package by running the following commands:
+
+```bash
+cd ~/turtlebot3_ws/src/
+git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+cd ~/turtlebot3_ws && colcon build --symlink-install
+```
+
+### Step 5: Launch the TurtleBot3 Simulation
+
+After completing the setup, you can launch different TurtleBot3 worlds in Gazebo.  
+
+**1. Launch an empty world:**
+
+```bash
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+
+```
+
+**2. Launch a TurtleBot3 World:**
+
+```bash
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+```
+
+**2. Launch a TurtleBot3 House:**
+
+```bash
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
+```
+
+
 
 
 
