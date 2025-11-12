@@ -187,6 +187,11 @@ Open the `spawn_turtlebot3.launch.py` file located in the **launch** folder of t
 Add the following lines in the appropriate place within the file to include the **yaw** parameter (for controlling the robot’s orientation):
 
 ```python
+
+x_pose = LaunchConfiguration('x_pose', default='0.0')
+y_pose = LaunchConfiguration('y_pose', default='0.0')
+yaw = LaunchConfiguration('yaw', default='3.14')
+
 declare_yaw_cmd = DeclareLaunchArgument(
     'yaw', default_value='3.14',
     description='Yaw orientation (in radians) of the robot'
