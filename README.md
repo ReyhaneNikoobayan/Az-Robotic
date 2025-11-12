@@ -174,7 +174,8 @@ Open your `.world` file and add the following line at the very top:
 
 ### Step 3: Create a Launch File
 
-Navigate to the **launch** folder inside the TurtleBot3 Gazebo package and make a copy of the existing launch file (‫‪turtlebot3_world.launch.py‬‬). Then, change the x_pose and y_pose values if necessary, and add a yaw parameter to your launch file to define the robot’s orientation.
+Navigate to the **launch** folder inside the TurtleBot3 Gazebo package and make a copy of the existing launch file (‫‪turtlebot3_world.launch.py‬‬). Then, change the world name to your own custom world file.  
+If necessary, adjust the **x_pose** and **y_pose** values to modify the robot’s starting position, and add a **yaw** parameter to define the robot’s orientation.
 
 <img width="2671" height="1502" alt="Screenshot from 2025-11-12 17-23-17" src="https://github.com/user-attachments/assets/55ebed5f-8faf-4e51-bf3f-f03f84387367" />
 
