@@ -158,6 +158,19 @@ ros2 run turtlebot3_teleop teleop_keyboard
 
 ## 🏞️ How to Add Your Environment to the TurtleBot3 Package
 
+### Step 1: Tranfer World file
+
+Copy the world you built in Gazebo into the **worlds** folder in Turtlebot3 package.
+
+### Step 2: Change the File to XML Format
+
+Make sure your world file begins with the correct XML declaration.  
+Open your `.world` file and add the following line at the very top:
+
+```xml
+<?xml version="1.0"?>
+
+<img width="2716" height="1471" alt="Screenshot from 2025-11-12 17-16-48" src="https://github.com/user-attachments/assets/975797e5-90c8-4110-aff0-604b30062f81" />
 
 
 
