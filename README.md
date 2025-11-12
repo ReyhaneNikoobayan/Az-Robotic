@@ -218,6 +218,14 @@ ld.add_action(declare_yaw_cmd)
 <img width="2702" height="1516" alt="Screenshot from 2025-11-12 17-29-19" src="https://github.com/user-attachments/assets/e93f46f2-6d45-413d-a6e1-5dd97e72f126" />
 
 
+### Step 5: Compile Your Package
+
+Navigate to your workspace, open a terminal, and run the following commands:
+
+```bash
+colcon build
+source install/setup.bash
+
 
 
 
