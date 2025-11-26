@@ -2,7 +2,7 @@
 
 #### This repository contains resources for the TurtleBot3 lab sessions, part of the Az-Robotic course at Sharif University of Technology (Fall 2025). The course is designed and taught by Prof. Taheri, with laboratory sessions conducted under my supervision.
 
-### Grateful to [Ali Mirghasemi](https://github.com/sam717269) for his help and contributions to this repository
+#### Grateful to [Ali Mirghasemi](https://github.com/sam717269) for his help and contributions to this repository
 
 ## Creating an environment in Gazebo
 
