@@ -359,3 +359,69 @@ Now the robot will navigate toward the specified goal position automatically.
 
 <img width="2727" height="1515" alt="Screenshot from 2025-11-26 18-31-13" src="https://github.com/user-attachments/assets/8fb26993-2d7a-4df8-8837-0f00acebd1f1" />
 
+## How to Launch a Real TurtleBot3
+
+### Step 1: Connect Your TurtleBot3 System to Your Laptop
+
+First, make sure that **both your laptop and the TurtleBot3** are connected to the **same network**.
+
+Then, open a terminal on your laptop and connect to the TurtleBot3 via SSH:
+
+```bash
+ssh TurtleBot3@10.18.154.195
+```
+
+### Step 2: Launch TurtleBot3 on the Robot
+
+After connecting via SSH, run the following commands on the TurtleBot3 to set up the environment and start the robot:
+
+```bash
+source /opt/ros/humble/setup.bash
+source ~/turtlebot3_ws/install/setup.bash
+
+export TURTLEBOT3_MODEL=burger
+export ROS_DOMAIN_ID=0
+export ROS_LOCALHOST_ONLY=0
+export LDS_MODEL=LDS-02
+
+ros2 launch turtlebot3_bringup robot.launch.py
+
+```
+
+### Step 3: Configure Your Laptop
+
+On your laptop, open a terminal and run the following commands to set up the ROS 2 environment and configure TurtleBot3 parameters:
+
+```bash
+source /opt/ros/humble/setup.bash
+
+export TURTLEBOT3_MODEL=burger
+export ROS_DOMAIN_ID=0
+export ROS_LOCALHOST_ONLY=0
+export LDS_MODEL=LDS-02
+```
+
+### Step 4: Run the Cartographer Package
+
+On your laptop, launch the Cartographer package to perform mapping and localization:
+
+```bash
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=true
+```
+
+### Step 5: Move Your Robot
+
+You can manually control your TurtleBot3 in the real environment using the keyboard:
+
+```bash
+ros2 run turtlebot3_teleop teleop_keyboard
+```
+
+### Step 6: Run the Robot with Your Code
+
+You can also run a code that subscribes to the `/scan` topic to detect obstacles and publishes commands to `cmd_vel` to move the robot autonomously:
+
+```bash
+ros2 run robot_controller Lidar_Data_alone_robot
+```
+
