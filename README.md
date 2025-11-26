@@ -337,4 +337,10 @@ python3 Initial_Pose.py
 
 <img width="2727" height="1515" alt="Screenshot from 2025-11-26 17-39-26" src="https://github.com/user-attachments/assets/fd9a079d-cdb5-4535-b11b-903db3339a24" />
 
+You can also determine the robot’s initial position using **2D Pose Estimate** in **RViz2**.
+
+
+<img width="2727" height="1515" alt="Screenshot from 2025-11-26 17-41-26" src="https://github.com/user-attachments/assets/f84bc4ec-df79-4ead-845b-00e5a5ec18f5" />
+
+
 ‬‬‬‬‬‬‬‬‬‬
