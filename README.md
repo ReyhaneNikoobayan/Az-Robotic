@@ -353,4 +353,9 @@ python3 Goal_Pose.py
 ```
 ‬‬‬‬‬‬‬‬‬‬<img width="2727" height="1515" alt="Screenshot from 2025-11-26 18-29-09" src="https://github.com/user-attachments/assets/4fc3adad-891b-4556-be2c-2ab4d6f3b08e" />
 
+### Step 6: Final Result
+
+Now the robot will navigate toward the specified goal position automatically.
+
+<img width="2727" height="1515" alt="Screenshot from 2025-11-26 18-31-13" src="https://github.com/user-attachments/assets/8fb26993-2d7a-4df8-8837-0f00acebd1f1" />
 
