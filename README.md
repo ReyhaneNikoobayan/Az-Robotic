@@ -14,7 +14,8 @@ gazebo
 From the top menu, go to **Edit → Building Editor**  .
 This opens the design interface where you can create your own **custom environment** in Gazebo.
 
-<img width="2730" height="1387" alt="Screenshot from 2025-11-08 17-48-22" src="https://github.com/user-attachments/assets/07c71415-ec02-4c24-9a15-e4fd1b57a253" />
+<img width="2727" height="1515" alt="Screenshot from 2025-11-26 16-39-11" src="https://github.com/user-attachments/assets/055dedfa-0a3b-4161-b865-3f70eb551e9d" />
+
 
 ### Step 3: Design Your Environment
 
