@@ -65,7 +65,8 @@ After that, save your world using **Save World As**, and make sure to use the **
 
 Your entire model will then be visible in the Gazebo simulation environment.
 
-<img width="2704" height="1500" alt="Screenshot from 2025-11-09 17-15-48" src="https://github.com/user-attachments/assets/4ab302c9-5e8e-4489-b571-a92b852a4d53" />
+<img width="2727" height="1515" alt="Screenshot from 2025-11-26 16-29-46" src="https://github.com/user-attachments/assets/e5918a01-f83c-4671-b39b-14e753bf931e" />
+
 
 ## How to Run the Simulation on Your Laptop
 
