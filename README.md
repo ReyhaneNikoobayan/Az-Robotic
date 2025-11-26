@@ -305,3 +305,26 @@ with
 robot_model_type: "nav2_amcl::DifferentialMotionModel"
 ```
 
+### Step 2: Run TurtleBot3
+
+Run TurtleBot3 in your custom environment by executing:
+
+```bash
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo turtlebot3_myworld.launch.py
+```
+
+### Step 3: Run Nav2
+
+Open a terminal **in the folder where your map is saved**, then run:
+
+```bash
+ros2 launch turtlebot3_navigation2 navigation2.launch.py \
+    use_sim_time:=true \
+    map:=my_map.yaml
+
+```
+<img width="2727" height="1515" alt="Screenshot from 2025-11-26 17-34-55" src="https://github.com/user-attachments/assets/4944306a-cea7-4cce-afb8-fe1898bb1b05" />
+
+
+‬‬‬‬‬‬‬‬‬‬
