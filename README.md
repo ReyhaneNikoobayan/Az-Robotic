@@ -37,7 +37,8 @@ Specify a **Model Name** and **Location** where your model will be saved.
 
 Finally, click **Editor Building Exit** to close the editor and view your environment in Gazebo.
 
-<img width="2729" height="1396" alt="Screenshot from 2025-11-08 18-07-58" src="https://github.com/user-attachments/assets/c66e53e5-4074-4cea-be15-4df0580bd3bc" />
+<img width="2761" height="1527" alt="Screenshot from 2025-11-26 16-19-14" src="https://github.com/user-attachments/assets/f607b842-b09e-4f56-8d1d-a2bde022ba93" />
+
 
 ### Step 6: Add Features
 
