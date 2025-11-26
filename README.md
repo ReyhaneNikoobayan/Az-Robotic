@@ -1,5 +1,7 @@
 # Az-Robotic
 
+This repository has been published as material for the TurtleBot3 laboratory sessions, which are a part of the Az-Robotic course and are led by me. The course is designed and instructed by Prof. Taheri in Fall 2025 at Sharif University of Technology.
+
 ## Creating an environment in Gazebo
 
 ### Step 1: open a terminal and run the following command to start Gazebo
